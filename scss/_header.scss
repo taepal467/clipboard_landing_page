@@ -1,3 +1,10 @@
+@mixin Flex-Column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 header {
     @include Flex-Column;
     text-align: center;
