@@ -1,0 +1,171 @@
+//Hover colors
+$primary-Strong-Cyan: hsl(171, 66%, 44%);
+
+@media screen and (min-width: 600px) {
+    #keep-track-section,
+    #access-📋-section {
+        img {
+            height: 70vh;
+            width: 70vw;
+        }
+    }
+
+    .ios-btn,
+    .mac-btn {
+        padding: 1rem 7rem;
+    }
+   
+}
+
+@media screen and (min-width: 1200px) {
+    //Header
+     header {
+        background: url(/images/bg-header-desktop.png) center top;
+        background-size: cover;
+        padding: 8rem 20rem;
+
+        .buttons {
+            @include Flex-Row;
+        
+            .ios-btn {
+                margin: 0 1rem;
+                padding: 1rem 2rem ;
+            }
+
+            .mac-btn {
+                padding: 1rem 2rem 0 2rem;
+            }
+
+            .ios-btn:hover,
+            .mac-btn:hover {
+                opacity: 70%;
+                cursor: pointer;
+            }
+        }
+    }
+
+    //Section-1
+    #keep-track-section {
+        background: url(/images/image-computer.png);
+        background-position: bottom left -25px;
+        background-repeat: no-repeat;
+        background-size: 80vh;
+       
+        .main-content {
+            margin-top: -90px;
+            padding: 3rem 18rem;
+        }
+
+        .content {
+            text-align: left;
+            margin-left: 20rem;
+            padding: 0 15rem;
+        }
+    
+        img {
+           display: none;
+        }
+    
+       
+    }
+
+    //Section-2
+    #access-📋-section {
+        padding: 6rem 23rem;
+        
+        img {
+            height: 80vh;
+            width: 40vw;
+            padding-right: 25rem;
+        }
+    }
+
+    //Section-3
+    #supercharge-section{
+        padding: 1rem 3rem;
+
+        .blacklist {
+            padding: 0.5rem 0.5rem 0 5rem;
+        }
+
+        .snippets {
+            padding: 2rem 1.5rem;
+        }
+
+       .content {
+           display: flex;
+           margin-left: -160px;
+           padding: 0 5rem;
+       }
+
+       .company-logos {
+           @include Flex-Row;
+           justify-content: space-between;
+
+           .logos {
+                width: 15vw;
+                padding: 4rem 1rem;
+            }
+       }
+    }
+
+    //Section-4
+    #📋-section {
+        padding: 9rem 23rem;
+        .buttons {
+            @include Flex-Row;
+
+            .ios-btn {
+                margin: 0 1rem;
+                padding: 1rem 2rem ;
+            }
+
+            .mac-btn {
+                padding: 1rem 2rem 0 2rem;
+            }
+
+            .ios-btn:hover,
+            .mac-btn:hover {
+                opacity: 70%;
+                cursor: pointer;
+            }
+        }
+    }
+
+    //Footer
+    footer {
+        @include Flex-Row;
+        justify-content: space-around;
+        height: 20vh;
+        
+        .links {
+            display: grid;
+            grid-template-columns: repeat(3, 50%);
+
+            .footer-link:hover {
+                color: $primary-Strong-Cyan;
+                cursor: pointer;
+            }
+        }
+
+        .social-icons {
+            .fa-brands:hover {
+                color: $primary-Strong-Cyan;
+                cursor: pointer;
+            }
+        }
+
+    }
+
+    #keep-track-section,
+    #access-📋-section {
+        img {
+            height: 80vh;
+            width: 80vw;
+        }
+    }
+
+    button {
+        @include Flex-Row;
+    }
+}

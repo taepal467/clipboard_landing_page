@@ -1,0 +1,26 @@
+header {
+    @include Flex-Column;
+    text-align: center;
+    padding: 8rem 4rem 4rem 3rem;
+    background: url(/images/bg-header-mobile.png) center top;
+    background-size: cover;
+
+    .header-logo {
+        padding-bottom: 40px;
+    }
+
+    .header-paragraph {
+        margin-top: 20px;
+        padding-bottom: 35px;
+    }
+}
+
+div.buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+

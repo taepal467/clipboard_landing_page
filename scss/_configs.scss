@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@mixin Flex-Center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin Flex-Column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin Flex-Row {
+    display: flex;
+    flex-direction: row;
+}

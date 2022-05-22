@@ -1,0 +1,593 @@
+@charset "UTF-8";
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  padding: 8rem 4rem 4rem 3rem;
+  background: url(/images/bg-header-mobile.png) center top;
+  background-size: cover;
+}
+
+header .header-logo {
+  padding-bottom: 40px;
+}
+
+header .header-paragraph {
+  margin-top: 20px;
+  padding-bottom: 35px;
+}
+
+div.buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media screen and (min-width: 600px) {
+  #keep-track-section img,
+  #access-📋-section img {
+    height: 70vh;
+    width: 70vw;
+  }
+  .ios-btn,
+  .mac-btn {
+    padding: 1rem 7rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  header {
+    background: url(/images/bg-header-desktop.png) center top;
+    background-size: cover;
+    padding: 8rem 20rem;
+  }
+  header .buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  header .buttons .ios-btn {
+    margin: 0 1rem;
+    padding: 1rem 2rem;
+  }
+  header .buttons .mac-btn {
+    padding: 1rem 2rem 0 2rem;
+  }
+  header .buttons .ios-btn:hover,
+  header .buttons .mac-btn:hover {
+    opacity: 70%;
+    cursor: pointer;
+  }
+  #keep-track-section {
+    background: url(/images/image-computer.png);
+    background-position: bottom left -25px;
+    background-repeat: no-repeat;
+    background-size: 80vh;
+  }
+  #keep-track-section .main-content {
+    margin-top: -90px;
+    padding: 3rem 18rem;
+  }
+  #keep-track-section .content {
+    text-align: left;
+    margin-left: 20rem;
+    padding: 0 15rem;
+  }
+  #keep-track-section img {
+    display: none;
+  }
+  #access-📋-section {
+    padding: 6rem 23rem;
+  }
+  #access-📋-section img {
+    height: 80vh;
+    width: 40vw;
+    padding-right: 25rem;
+  }
+  #supercharge-section {
+    padding: 1rem 3rem;
+  }
+  #supercharge-section .blacklist {
+    padding: 0.5rem 0.5rem 0 5rem;
+  }
+  #supercharge-section .snippets {
+    padding: 2rem 1.5rem;
+  }
+  #supercharge-section .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: -160px;
+    padding: 0 5rem;
+  }
+  #supercharge-section .company-logos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  #supercharge-section .company-logos .logos {
+    width: 15vw;
+    padding: 4rem 1rem;
+  }
+  #📋-section {
+    padding: 9rem 23rem;
+  }
+  #📋-section .buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  #📋-section .buttons .ios-btn {
+    margin: 0 1rem;
+    padding: 1rem 2rem;
+  }
+  #📋-section .buttons .mac-btn {
+    padding: 1rem 2rem 0 2rem;
+  }
+  #📋-section .buttons .ios-btn:hover,
+  #📋-section .buttons .mac-btn:hover {
+    opacity: 70%;
+    cursor: pointer;
+  }
+  footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    height: 20vh;
+  }
+  footer .links {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (50%)[3];
+        grid-template-columns: repeat(3, 50%);
+  }
+  footer .links .footer-link:hover {
+    color: #26baa4;
+    cursor: pointer;
+  }
+  footer .social-icons .fa-brands:hover {
+    color: #26baa4;
+    cursor: pointer;
+  }
+  #keep-track-section img,
+  #access-📋-section img {
+    height: 80vh;
+    width: 80vw;
+  }
+  button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+#keep-track-section {
+  padding: 8rem 4rem 4rem 4rem;
+  text-align: center;
+}
+
+#keep-track-section img {
+  height: 50vh;
+  width: 80vw;
+  padding: 3rem 0 2rem 0;
+  margin-left: -2.5rem;
+}
+
+#keep-track-section h2 {
+  padding-bottom: 0.5rem;
+}
+
+#keep-track-section h3 {
+  padding-top: 2rem;
+  padding-bottom: 0.5rem;
+}
+
+#access-📋-section {
+  padding: 8rem 4rem 4rem 2rem;
+  text-align: center;
+}
+
+#access-📋-section img {
+  height: 50vh;
+  width: 100vw;
+  padding: 3rem 0 2rem 0;
+  margin-left: -2.5rem;
+}
+
+#supercharge-section {
+  text-align: center;
+  padding: 0 3rem;
+}
+
+#supercharge-section h3 {
+  padding-bottom: 1rem;
+}
+
+#supercharge-section .blacklist {
+  padding-top: 5rem;
+}
+
+#supercharge-section .blacklist img {
+  padding: 2rem 0;
+}
+
+#supercharge-section .snippets,
+#supercharge-section .preview {
+  padding-top: 2rem;
+}
+
+#supercharge-section .snippets img,
+#supercharge-section .preview img {
+  padding: 1rem 0 2rem 0;
+}
+
+.company-logos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.company-logos .logos {
+  width: 25vw;
+  padding: 1.75rem 0;
+}
+
+.company-logos .google {
+  padding-top: 7rem;
+}
+
+#📋-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 9rem 3rem;
+  text-align: center;
+}
+
+#📋-section p {
+  padding-top: 1rem;
+  padding-bottom: 2.5rem;
+}
+
+footer {
+  background-color: #eff3f6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  height: 70vh;
+}
+
+footer .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #4c545d;
+}
+
+footer a {
+  color: #4c545d;
+  padding: 1rem 0;
+  text-decoration: none;
+}
+
+footer .footer-logo {
+  height: 12vh;
+  padding-bottom: 1rem;
+}
+
+footer .social-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2rem 0;
+}
+
+footer .social-icons .fa-brands {
+  font-size: 1.5em;
+  padding: 0 1rem;
+}
+
+footer .attribution {
+  color: #4c545d;
+  font-size: 12px;
+  text-align: center;
+}
+
+footer .attribution a {
+  color: #4c545d;
+}
+
+@media screen and (min-width: 600px) {
+  #keep-track-section img,
+  #access-📋-section img {
+    height: 70vh;
+    width: 70vw;
+  }
+  .ios-btn,
+  .mac-btn {
+    padding: 1rem 7rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  header {
+    background: url(/images/bg-header-desktop.png) center top;
+    background-size: cover;
+    padding: 8rem 20rem;
+  }
+  header .buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  header .buttons .ios-btn {
+    margin: 0 1rem;
+    padding: 1rem 2rem;
+  }
+  header .buttons .mac-btn {
+    padding: 1rem 2rem 0 2rem;
+  }
+  header .buttons .ios-btn:hover,
+  header .buttons .mac-btn:hover {
+    opacity: 70%;
+    cursor: pointer;
+  }
+  #keep-track-section {
+    background: url(/images/image-computer.png);
+    background-position: bottom left -25px;
+    background-repeat: no-repeat;
+    background-size: 80vh;
+  }
+  #keep-track-section .main-content {
+    margin-top: -90px;
+    padding: 3rem 18rem;
+  }
+  #keep-track-section .content {
+    text-align: left;
+    margin-left: 20rem;
+    padding: 0 15rem;
+  }
+  #keep-track-section img {
+    display: none;
+  }
+  #access-📋-section {
+    padding: 6rem 23rem;
+  }
+  #access-📋-section img {
+    height: 80vh;
+    width: 40vw;
+    padding-right: 25rem;
+  }
+  #supercharge-section {
+    padding: 1rem 3rem;
+  }
+  #supercharge-section .blacklist {
+    padding: 0.5rem 0.5rem 0 5rem;
+  }
+  #supercharge-section .snippets {
+    padding: 2rem 1.5rem;
+  }
+  #supercharge-section .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: -160px;
+    padding: 0 5rem;
+  }
+  #supercharge-section .company-logos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  #supercharge-section .company-logos .logos {
+    width: 15vw;
+    padding: 4rem 1rem;
+  }
+  #📋-section {
+    padding: 9rem 23rem;
+  }
+  #📋-section .buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  #📋-section .buttons .ios-btn {
+    margin: 0 1rem;
+    padding: 1rem 2rem;
+  }
+  #📋-section .buttons .mac-btn {
+    padding: 1rem 2rem 0 2rem;
+  }
+  #📋-section .buttons .ios-btn:hover,
+  #📋-section .buttons .mac-btn:hover {
+    opacity: 70%;
+    cursor: pointer;
+  }
+  footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    height: 20vh;
+  }
+  footer .links {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (50%)[3];
+        grid-template-columns: repeat(3, 50%);
+  }
+  footer .links .footer-link:hover {
+    color: #26baa4;
+    cursor: pointer;
+  }
+  footer .social-icons .fa-brands:hover {
+    color: #26baa4;
+    cursor: pointer;
+  }
+  #keep-track-section img,
+  #access-📋-section img {
+    height: 80vh;
+    width: 80vw;
+  }
+  button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-size: 18px;
+}
+
+h1,
+h2,
+h3 {
+  color: #4c545d;
+}
+
+p {
+  color: #9fabb2;
+  line-height: 1.5;
+}
+
+button {
+  border: none;
+  border-radius: 25px;
+  color: white;
+  font-weight: 600;
+  padding: 0.75rem 6rem;
+}
+
+.ios-btn {
+  background-color: #26baa4;
+  -webkit-box-shadow: 3px 3px 5px #156559;
+          box-shadow: 3px 3px 5px #156559;
+  margin-bottom: 20px;
+}
+
+.mac-btn {
+  background-color: #6173ff;
+  -webkit-box-shadow: 3px 3px 5px #313c87;
+          box-shadow: 3px 3px 5px #313c87;
+}
+/*# sourceMappingURL=main.css.map */

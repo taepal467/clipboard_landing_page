@@ -1,0 +1,11 @@
+//Clipboard for iOS and Mac OS
+#📋-section {
+   @include Flex-Column;
+    padding: 9rem 3rem;
+    text-align: center;
+
+    p {
+        padding-top: 1rem;
+        padding-bottom: 2.5rem;
+    }
+}

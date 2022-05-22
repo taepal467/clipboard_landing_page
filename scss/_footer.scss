@@ -1,0 +1,45 @@
+$footer-color: hsl(203, 29%, 95%);
+$neutral-Grayish-Blue: hsl(210, 10%, 33%);
+
+footer {
+    background-color: $footer-color;
+    @include Flex-Column;
+    text-align: center;
+    height: 70vh;
+
+    .links {
+        @include Flex-Column;
+        color: $neutral-Grayish-Blue;
+    }
+
+    a {
+        color: $neutral-Grayish-Blue;
+        padding: 1rem 0;
+        text-decoration: none;
+    }
+
+    .footer-logo {
+        height: 12vh;
+        padding-bottom: 1rem;
+    }
+
+    .social-icons {
+        @include Flex-Center;
+        padding: 2rem 0;
+
+        .fa-brands {
+            font-size: 1.5em;
+            padding: 0 1rem;
+        }
+    }
+
+    .attribution { 
+        color: $neutral-Grayish-Blue;
+        font-size: 12px; 
+        text-align: center; 
+    }
+    .attribution a { 
+        color: $neutral-Grayish-Blue;
+    }
+}
+
