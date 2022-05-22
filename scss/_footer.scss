@@ -1,5 +1,16 @@
 $footer-color: hsl(203, 29%, 95%);
 $neutral-Grayish-Blue: hsl(210, 10%, 33%);
+@mixin Flex-Column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@mixin Flex-Center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 footer {
     background-color: $footer-color;
