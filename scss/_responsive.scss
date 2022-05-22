@@ -1,5 +1,9 @@
 //Hover colors
 $primary-Strong-Cyan: hsl(171, 66%, 44%);
+@mixin Flex-Row {
+    display: flex;
+    flex-direction: row;
+}
 
 @media screen and (min-width: 600px) {
     #keep-track-section,
