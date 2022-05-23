@@ -6,6 +6,12 @@ $primary-Strong-Cyan: hsl(171, 66%, 44%);
 }
 
 @media screen and (min-width: 600px) {
+    
+    header {
+         background: url(/images/bg-header-desktop.png) center top;
+         background-size: cover;
+         padding: 8rem 20rem;
+     {
     #keep-track-section,
     #access-📋-section {
         img {
@@ -24,7 +30,7 @@ $primary-Strong-Cyan: hsl(171, 66%, 44%);
 @media screen and (min-width: 1200px) {
     //Header
      header {
-        background: url(../images/bg-header-desktop.png) center top;
+        background: url(/images/bg-header-desktop.png) center top;
         background-size: cover;
         padding: 8rem 20rem;
 
@@ -50,7 +56,7 @@ $primary-Strong-Cyan: hsl(171, 66%, 44%);
 
     //Section-1
     #keep-track-section {
-        background: url(../images/image-computer.png);
+        background: url(/images/image-computer.png);
         background-position: bottom left -25px;
         background-repeat: no-repeat;
         background-size: 80vh;
