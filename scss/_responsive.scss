@@ -24,8 +24,7 @@ $primary-Strong-Cyan: hsl(171, 66%, 44%);
 @media screen and (min-width: 1200px) {
     //Header
      header {
-        background: url(/images/bg-header-desktop.png);
-         background-position: center top;
+        background: url(/images/bg-header-desktop.png) center top;
         background-size: cover;
         padding: 8rem 20rem;
 
@@ -67,9 +66,9 @@ $primary-Strong-Cyan: hsl(171, 66%, 44%);
             padding: 0 15rem;
         }
     
-//         img {
-//            visibility: hidden;
-//         }
+        .section2-img {
+           display: none;
+        }
     
        
     }
