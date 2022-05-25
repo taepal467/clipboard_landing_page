@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Live Site]https://taepal467.github.io/clipboard_landing_page/)
+- Live Site URL: [Live Site](https://incredible-moxie-332679.netlify.app)
 
 ## My process
 
